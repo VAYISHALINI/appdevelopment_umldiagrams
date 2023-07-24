@@ -1,0 +1,105 @@
+.regmain{
+	margin: 0; 
+	padding: 0;
+	display: flex;
+	justify-content: right;
+	
+	/* min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	
+	background-image: url("../components/images/pin4.jpg");
+	background-repeat: no-repeat;
+	
+    
+	/* background-size: cover; */
+}
+.regmain{
+	margin-right: 100px;
+	width: 350px;
+	height: 600px;
+	/* background: red; */
+	overflow: hidden;
+	margin-left: 550px;
+	margin-top: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+	background-color: whitesmoke;
+}
+#chk{
+	display: none;
+	background-color: whitesmoke;
+	
+}
+.signup{
+	background-color: whitesmoke;
+	text-align: center;
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+#sign{
+	color: #c1814d;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.signbut{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #c1814d;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.signbut:hover{
+	background: #dd7b47;
+}
+
+h5{
+	text-align: center;
+	text-decoration: none;
+	color:#000
+}
+
+h6{
+	text-align: center;
+}
+.errorMsg{
+	color:#dd7b47;
+	text-align: center;
+}
+select{
+	width:65%;
+	height:40px;
+	background-color:  #e0dede;
+    border-radius: 5px;
+	justify-content: center;
+	border: none;
+	outline: none;
+}
